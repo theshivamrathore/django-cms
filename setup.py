@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 
-import polls
+import GovtjobApp
 
 
 setup(
-    name='polls',
-    version=polls.__version__,
+    name='GovtJobApp',
+    version=app.__version__,
     description='',
     author='Jakub Janoszek',
     author_email='kuba.janoszek@gmail.com',
     include_package_data=True,
-    url='https://github.com/divio/django-polls/tree/ver-%s' % polls.__version__,
+    url='https://github.com/theshivamrathore/django-cms/tree/ver-%s' % app.__version__,
     packages=find_packages(),
     classifiers=[
         'Development Status :: 4 - Beta',
